@@ -86,6 +86,13 @@
     border-radius: 1rem;
 }
 
+.pokemon:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+
 .pokemon .number {
     color: #000;
     opacity: .3;
@@ -140,7 +147,7 @@
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
-    color: #fff;
+    color: #dcc9f4;
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;

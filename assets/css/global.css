@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #d9c8f3 ;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #f3e9fa;
 }
 
 @media screen and (min-width: 992px) {
@@ -21,4 +21,24 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
+}
+
+.tema button {
+    color: #6f38f6 ;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #F7F7F7;
+  }
+
+
+.night .tema button {
+    color: #FFFFFF;
+    background: #5607ea;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #F7F7F7;
+}
+
+.night {
+    background-color: #8d5bd8 ;
 }

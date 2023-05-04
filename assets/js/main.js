@@ -45,3 +45,7 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+function mudaModo(){
+    document.body.classList.toggle('night')
+  }
